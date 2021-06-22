@@ -1,0 +1,83 @@
+body{
+    text-align: center;  
+    /*background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 300;*/
+    background-color: blueviolet;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    font-weight: 300;
+}
+.fa-marked-alt{
+    font-size: 40px 40px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width: 1280px) {
+    html {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    html {
+        font-size: 17pt;
+    }
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(0deg);
+    }
+}*/
