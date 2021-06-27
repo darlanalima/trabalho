@@ -2,9 +2,9 @@ body{
     text-align: center;  
   
     
- background-image: url(fundo.jpg) ;
+ background-image: url ;
 
-    
+    background-color: rgb(0, 0, 0);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
