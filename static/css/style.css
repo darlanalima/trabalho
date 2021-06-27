@@ -1,8 +1,10 @@
 body{
     text-align: center;  
   
-   
-    background-color: rgb(0, 0, 0);
+    
+ background-image: url(fundo.jpg) ;
+
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,37 +23,43 @@ h1,h2{
    
 }
 
-.nav {
+/*.nav {
   
     color: #ffffff;
     background-color:  #4d4747;     
     text-align: center; 
     width: auto;
-    padding: 50px 50px 50px;
+    padding: 25px 50px 25px ;
    cursor: default;
-}
+}*/
 .nav ul{
     display:flex;
+    background-color: #4d4747;
     justify-content: center;
-     margin: 0;
+     margin: 20px 0;
      list-style: none;
 }
    .nav ul li a.active{
     background-color:  #404347;
     box-shadow: none;
 }
+.social-media{
+    text-align: center;
+    color:#fdf4f4;
+    list-style: none;
+    border: oldlace;
+   
+   
+}
+
 nav ul a {
     text-decoration: none;
     display: inline-block;
-    padding:0 6.25em;
+    padding:0 4.25em;
     color:#fdf4f4;
 }
-.nav ul li a{
-    line-height: 100%;
-   border-radius: 8px;
-}
-
-.fa-marked-alt{
+.fa-map-marked-alt:before {
+    color: rgb(241, 241, 241);
     font-size: 40px 40px;
 }
 
@@ -66,61 +74,113 @@ img {
   img:hover {
     opacity: 1.0;
   }
+  a:-webkit-any-link {
+    color:#fdf4f4;
+    cursor:pointer;
+    text-decoration: underline;
+    text-shadow: 0 0 8px rgb(66 62 62);
+   /* border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(247, 244, 244), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 12px;
+*/
+}
+.hotel1{
+    border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(247, 244, 244), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 12px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*@media screen and (min-width: 1280px) {
-    html {
-        font-size: 14pt;
-    }
+}
+.hotel2{
+    border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(247, 244, 244), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 12px;
+}
+.hotel3{
+    border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(247, 244, 244), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 12px;
+}
+.hotel4{
+    border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(247, 244, 244), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 12px;
+}
+.hotel5{
+    border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(247, 244, 244), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 12px;
+}
+/*.sumiu{
+    animation-name: sumir;
+    animation-duration: 6s;
 }
 
-@media screen and (min-width: 1680px) {
-    html {
-        font-size: 17pt;
-    }
+@keyframes sumir{
+ from{
+opacity: 100%;
+ 
 }
-
-@keyframes fade-in {
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes spin {
-    100% {
-        transform: rotate(0deg);
-    }
+to {
+    opacity: 0%;
 }*/
+
+@media screen and (max-width 768px) {
+    selection, aside {
+        width: 100px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px)
+    nav li {
+      float: none;
+      text-align: center ;
+      width: 100
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*@media screen and (min-width:600px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
