@@ -1,10 +1,8 @@
 body{
     text-align: center;  
   
-    
- background-image: url ;
-
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.986);
+ 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -94,6 +92,8 @@ img {
     border-radius: 12px;
 
 }
+
+
 .hotel2{
     border-width: 4px;
     border-style: outset;
@@ -122,6 +122,94 @@ img {
     border-image: initial;
     border-radius: 12px;
 }
+.fone{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.malas{ 
+    
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: #3b088d;}
+    .livros{
+        display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    } .mascaras{
+        display:flex;
+        justify-content: center;
+        
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+    } 
+    .canivetes{
+        display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    }
+    .fone ul a {
+        
+        text-decoration: none;
+        display:-ms-flexbox;
+        padding:0 2.25em;
+        color:#fffdfe;
+           justify-content: center;
+             margin: 5px 0;
+             list-style: none;
+     }
+
+     .malas ul a {
+        text-decoration: none;
+        display:-ms-flexbox;
+        padding:0 2.25em;
+        color:#fffdfe;
+           justify-content: center;
+             margin: 5px 0;
+             list-style: none;
+     }
+     .livros ul a{
+        text-decoration: none;
+        display:-ms-flexbox;
+        padding:0 2.25em;
+        color:#fffdfe;
+           justify-content: center;
+             margin: 5px 0;
+             list-style: none;
+     }
+
+     .mascaras ul a{
+        text-decoration: none;
+        display:-ms-flexbox;
+        padding:0 2.25em;
+        color:#fffdfe;
+           justify-content: center;
+             margin: 5px 0;
+             list-style: none;
+            
+     }
+     .canivetes ul a{
+        text-decoration: none;
+        display:-ms-flexbox;
+        padding:0 2.25em;
+        color:#fffdfe;
+           justify-content: center;
+             margin: 5px 0;
+             list-style: none;
+     }
 /*.sumiu{
     animation-name: sumir;
     animation-duration: 6s;
